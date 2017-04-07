@@ -2,13 +2,13 @@
 
 namespace Myrtle\Core\Docks;
 
-use Myrtle\Phones\Models\PhoneType;
+use Myrtle\Core\Phones\Models\PhoneType;
 use Illuminate\Support\Facades\View;
-use Myrtle\Phones\Policies\PhonesPolicy;
-use Myrtle\Phones\Providers\PhonerServiceProvider;
-use Myrtle\Phones\Providers\PhonesServiceProvider;
-use Myrtle\Phones\Exceptions\PhoneTypeHasAddressesException;
-use Myrtle\Phones\Handlers\PhoneTypeHasAddressesExceptionAbettor;
+use Myrtle\Core\Phones\Policies\PhonesPolicy;
+use Myrtle\Core\Phones\Providers\PhonerServiceProvider;
+use Myrtle\Core\Phones\Providers\PhonesServiceProvider;
+use Myrtle\Core\Phones\Exceptions\PhoneTypeHasAddressesException;
+use Myrtle\Core\Phones\Handlers\PhoneTypeHasAddressesExceptionAbettor;
 
 class PhonesDock extends Dock
 {
