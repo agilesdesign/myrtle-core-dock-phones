@@ -9,7 +9,8 @@
         }
     ],
     "require": {
-        "agilesdesign/myrtle-core-dock-docks": "dev-master"
+        "agilesdesign/myrtle-core-dock-docks": "dev-master",
+        "giggsey/libphonenumber-for-php": "8.4.*"
     },
     "autoload": {
         "classmap": [
